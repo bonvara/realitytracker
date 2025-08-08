@@ -375,6 +375,9 @@ $(() => activeRenderer = renderer2d);
 //TODO menu styles
 $( function() {$( "#menuList" ).menu(
 {
-
+	position: 
+	{	
+		collision: "fit"
+	}
 }
 );});
